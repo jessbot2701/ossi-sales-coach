@@ -1,0 +1,4 @@
+preview-*.png
+.agent-browser/
+.DS_Store
+.vercel
