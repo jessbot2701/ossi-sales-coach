@@ -1,4 +1,4 @@
-# Ozzy – AI Sales Coach
+# Ossi – AI Sales Coach
 
 Aktuelle Website-Version: `1.0`
 
@@ -11,7 +11,7 @@ Eine responsive Landingpage für einen ElevenLabs Voice Agent, der realistische 
 - kopierbare Gesprächseinstiege
 - responsives, barrierearmes Design
 - offizielle IGZ-Primärfarbe `#004482`
-- großes Ozzy-Portrait als Hero-Bild
+- großes Ossi-Portrait als Hero-Bild
 - optimierte WebP-Bildauslieferung mit PNG-Fallback
 - versioniertes Voice-Widget wird erst nach Zustimmung geladen
 
@@ -25,7 +25,7 @@ Danach `http://localhost:4173` öffnen.
 
 ## Varianten
 
-- `index.html`: Hauptversion mit surrealer Ozzy-Karikatur
+- `index.html`: Hauptversion mit surrealer Ossi-Karikatur
 - `v2.html`: Referenzkopie der surrealen Karikatur-Version
 
 ## Datenschutz
