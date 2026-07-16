@@ -1,5 +1,7 @@
 # Ozzy – AI Sales Coach
 
+Aktuelle Website-Version: `1.0`
+
 Eine responsive Landingpage für einen ElevenLabs Voice Agent, der realistische B2B-Kaltakquise im SAP-Umfeld trainiert.
 
 ## Funktionen
