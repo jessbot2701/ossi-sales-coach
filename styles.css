@@ -115,8 +115,11 @@ h1 em { color: var(--blue-soft); font-style: normal; }
 .voice-consent-button:hover { border-color: rgba(142,207,255,.72); background: #07599f; transform: translateY(-1px); }
 .voice-consent-button:focus-visible { outline: 3px solid var(--blue-soft); outline-offset: 3px; }
 .voice-consent-button[disabled] { cursor: wait; opacity: .72; transform: none; }
-.voice-widget-target { min-height: 86px; display: grid; place-items: center; color: #9fb0be; font-size: 12px; text-align: center; }
+.voice-widget-target { min-height: 86px; display: grid; place-items: center; gap: 12px; color: #9fb0be; font-size: 12px; text-align: center; }
 .voice-widget-target:empty { min-height: 0; }
+.voice-ready { width: min(100%, 420px); display: grid; gap: 4px; padding: 12px 14px; border: 1px solid rgba(70,211,154,.22); border-radius: 12px; background: rgba(70,211,154,.08); }
+.voice-ready strong { color: #c9f5df; font-size: 12px; line-height: 1.25; }
+.voice-ready span { color: #94a9b9; font-size: 11px; line-height: 1.45; }
 elevenlabs-convai { display: block; min-height: 76px; }
 
 .how { background: linear-gradient(180deg, #dff1fb 0%, var(--paper) 22%, #d5eaf6 100%); }

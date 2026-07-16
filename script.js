@@ -96,7 +96,12 @@ async function enableVoiceWidget() {
 
     const widget = document.createElement('elevenlabs-convai');
     widget.setAttribute('agent-id', VOICE_AGENT_ID);
-    widgetTarget.replaceChildren(widget);
+
+    const status = document.createElement('div');
+    status.className = 'voice-ready';
+    status.innerHTML = '<strong>Voice Agent geladen</strong><span>Klicke unten auf „Ruf mich an!“, um das Training zu starten.</span>';
+
+    widgetTarget.replaceChildren(status, widget);
     consentPanel.hidden = true;
   } catch {
     enableVoiceButton.disabled = false;
